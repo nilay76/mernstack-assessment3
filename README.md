@@ -13,5 +13,3 @@ DOM in rendering changes when they occur. As React has the Virtual DOM, it will 
 virtual DOM and then only the difference will be rendered to the actual DOM in the most efficient way that React can find
 using a diffing algorithim. After this, the virtual DOM will be updated to the new state, to keep up with the actual DOM.
 And then on next change in state, the process will repeat.
-
-8)
